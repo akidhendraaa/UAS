@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block header %}
+
+{% endblock %}
+{% block title %}Aplikasi Hourglassid{% endblock %}
+{% block content %}
+<div class="container">
+<center
+<div class="card" style="width: 40rem;">
+  <img class="card-img-top" src="{{ url_for('static', filename='img/pandan.jpg') }}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Beras Pandan wangi</h5>
+    <p class="card-text"> beras spesial </p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Harga/karung : Rp.300.000 </li>
+  </ul>
+  <div class="card-body">
+    <a href="#" class="card-link">Tambahkan ke keranjang</a>
+    <a href="#" class="card-link">link Order</a>
+  </div>
+</div>
+</center>
+
+<div class="container">
+<center
+<div class="card" style="width: 40rem;">
+  <img class="card-img-top" src="{{ url_for('static', filename='img/bmw.jpg') }}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Beras BMW</h5>
+    <p class="card-text"> Beras dari brand mobil </p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Harga/karung : Rp.100.000 </li>
+  </ul>
+  <div class="card-body">
+    <a href="#" class="card-link">Tambahkan ke keranjang</a>
+    <a href="#" class="card-link">link Order</a>
+  </div>
+
+  <div class="container">
+  <center
+<div class="card" style="width: 40rem;">
+  <img class="card-img-top" src="{{ url_for('static', filename='img/hitam.jpg') }}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Beras Hitam</h5>
+    <p class="card-text"> Beras seperti malika </p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Harga/karung : Rp.350.000 </li>
+  </ul>
+  <div class="card-body">
+    <a href="#" class="card-link">Tambahkan ke keranjang</a>
+    <a href="#" class="card-link">link Order</a>
+  </div>
+</div>
+</center>
+{% endblock %}

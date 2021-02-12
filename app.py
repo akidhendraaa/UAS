@@ -9,6 +9,13 @@ def home():
 def about():
     return render_template("about.html")
 
+@app.route("/contact")
+def contact():
+    return render_template("contact.html")
+
+@app.route("/produk")
+def produk():
+    return render_template("produk.html")
 
 if __name__ == "__main__":
     app.run()
